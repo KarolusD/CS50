@@ -25,12 +25,14 @@ int main(void)
     // print hashes
     for (int h = 1; h <= 2 * i; h++)
     {
+      // spaces inbetween left and right part of the pyramid
       if (h == i + 1)
       {
         printf("  ");
       }
       printf("#");
     }
+    // new line
     printf("\n");
   }
 

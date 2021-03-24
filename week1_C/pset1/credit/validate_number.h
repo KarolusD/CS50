@@ -4,7 +4,9 @@
 
 bool validate_number(char input[])
 {
-  for (int i = 0; i < strlen(input); i++)
+  int length = strlen(input);
+
+  for (int i = 0; i < length; i++)
   {
     if (!isdigit(input[i]))
     {
