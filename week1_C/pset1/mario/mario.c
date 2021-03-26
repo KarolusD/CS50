@@ -13,9 +13,6 @@ int main(void)
 
   for (int i = 1; i <= height; i++)
   {
-    char pyramid_right[100];
-    char pyramid_left[100];
-
     // print spaces
     for (int s = 1; s <= height - i; s++)
     {
