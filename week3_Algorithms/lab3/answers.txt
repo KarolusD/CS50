@@ -1,0 +1,15 @@
+sort1 uses: bubble sort
+
+How do you know?: Execution of sort1 took 14.737s real time for random5000.txt and 11.315s for reversed5000.txt, so comparing it to the rest of the algorithms, it's the slowest one.
+Also it seems that execution time for already sorted array is much faster which indicates that the time complexity in best case scenerio will be better (lower). 
+This brings me to conclusion that this is probably bubble sort as it's not the fastest algorithm among the others but lower bound time complexity is much lower than the higher bound.
+
+sort2 uses: merge sort
+
+How do you know?: Execution of sort2 took 2.361s real time for random5000.txt and 3.405s for reversed5000.txt, so comparing it to the rest of the algorithms, it's the fastest one.
+Also it seems that execution time for already sorted array is still more or less the same as for random which indicates that the time complexity both in best case and worst case scenerio will be simillar.
+
+sort3 uses: selection sort
+
+How do you know?: Execution of sort3 took 8.585s real time for random5000.txt and 9.187s for reversed5000.txt, so comparing it to the sort1 it's a bit faster, but definitely slower than sort2.
+Also it seems that execution time for already sorted array is still more or less the same as for random which indicates that the time complexity both in best case and worst case scenerio will be simillar.
